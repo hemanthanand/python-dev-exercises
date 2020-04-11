@@ -120,20 +120,20 @@ Switching on camera from habitat with rabbits...
 It seems there will be more rabbits soon!"""
 
 animals = [camel, lion, deer, goose, bat, rabbit]
-chosen = ''
-while chosen != 'exit':
-   chosen = input("Which habitat # do you need? ")
-   if chosen == '1':
+user_input = ''
+while user_input != 'exit':
+   user_input = input("Which habitat # do you need? ")
+   if user_input == '1':
       print(camel)
-   elif chosen == '2':
+   elif user_input == '2':
       print(lion)
-   elif chosen == '3':
+   elif user_input == '3':
       print(deer)
-   elif chosen == '4':
+   elif user_input == '4':
       print(goose)
-   elif chosen == '5':
+   elif user_input == '5':
       print(bat)
-   elif chosen == '6':
+   elif user_input == '6':
       print(rabbit)
-   elif chosen == 'exit':
+   elif user_input == 'exit':
       print('See you!')
